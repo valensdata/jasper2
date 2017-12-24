@@ -71,6 +71,7 @@ lsi: False
 username: valensdata
 repo: valensdata.github.io
 branch: master
+destination_branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
 production_url: http://blog.valensdatalabs.com/
