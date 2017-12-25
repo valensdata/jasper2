@@ -46,7 +46,7 @@ jekyll-crosspost_to_medium:
   enabled: true
   cache: .jekyll-crosspost_to_medium
   status: draft
-  license: all-rights-reserved (default) | cc-40-by | cc-40-by-sa | cc-40-by-nd | cc-40-by-nc | cc-40-by-nc-nd | cc-40-by-nc-sa | cc-40-zero | public-domain
+  license: public-domain
   text: '<p><i>This article was originally posted <a href=\"{{ site.production_url }}\" rel=\"canonical\">on Valens DataLabs blog</a>.</i></p>'
   backdate: true
 
