@@ -51,7 +51,8 @@ jekyll-crosspost_to_medium:
   backdate: true
 
 # gems and other configs
-plugins: [jekyll-paginate, jekyll-feed, jekyll-crosspost-to-medium]
+gems: [jekyll-crosspost-to-medium]
+plugins: [jekyll-paginate, jekyll-feed]
 exclude: [vendor]
 
 feed:
