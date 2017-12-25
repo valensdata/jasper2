@@ -10,6 +10,7 @@ class: post-template
 subclass: 'post tag-elastic-stack'
 logo: assets/images/ghost.png
 author: pranav
+crosspost_to_medium: true
 ---
 
 <p>The book Learning Elastic Stack 6.0 is available for pre-order. Here is what to expect from the book.</p>
