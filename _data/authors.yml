@@ -14,9 +14,7 @@ pranav:
   location: Ahmedabad, India
   url_full: http://valensdatalabs.com/
   url: valensdatalabs.com
-  bio: <p>Pranav is a big data architect, a technologist, author, and entrepreneur. Pranav founded Valens DataLabs with a vision to help companies leverage data to their competitive advantage. </p>
-    <p></p>
-    <p>Valens DataLabs specializes in building JVM-based, scalable, reactive, and data-driven applications using Java/Scala, Hadoop ecosystem, Apache Spark, and NoSQL databases. The company believes in agile practices, lean principles, test-driven and behavior-driven development, continuous integration, and continuous delivery for sustainable software systems.</p>
+  bio: <p>Pranav is a big data architect, a technologist, and author with over 14 years of experience in building scalable, reactive, data intesive enterprise applications for large clients and startups. He is the founder of Valens DataLabs, a technology startup. </p>
   picture: assets/images/pranav.jpg
   facebook: False
   twitter: pranavshukla81

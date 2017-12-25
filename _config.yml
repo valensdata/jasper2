@@ -17,6 +17,7 @@ favicon: assets/images/favicon.png
 production_url: http://blog.valensdatalabs.com/
 source_url: https://github.com/valensdata/jasper2/
 www_site_url: http://www.valensdatalabs.com/
+www_title: Valens DataLabs
 
 # Social info
 navigation: True # show the navbar links
