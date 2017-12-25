@@ -47,7 +47,7 @@ jekyll-crosspost_to_medium:
   cache: .jekyll-crosspost_to_medium
   status: draft
   license: public-domain
-  text: '<p><i>This article was originally posted <a href=\"{{ site.production_url }}\" rel=\"canonical\">on Valens DataLabs blog</a>.</i></p>'
+  text: '<p><i>This article was originally posted <a href=\"{{ url }}\" rel=\"canonical\">on Valens DataLabs blog</a>.</i></p>'
   backdate: true
 
 # gems and other configs
