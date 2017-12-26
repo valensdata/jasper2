@@ -5,7 +5,7 @@ cover:  assets/images/posts/book_cover_image.png
 navigation: True
 title: Releasing Soon! Learning Elastic Stack 6.0
 date: 2017-12-24 10:00:00
-tags: [Elastic Stack]
+tags: [Elastic Stack, Elasticsearch, Kibana, Logstash, Beats]
 class: post-template
 subclass: 'post tag-elastic-stack'
 logo: assets/images/ghost.png
