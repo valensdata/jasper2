@@ -46,4 +46,8 @@ The book is available for ordering at Packt's website <a href="https://www.packt
 
 It is also available on <a href="https://www.amazon.co.uk/Learning-Elastic-Stack-Pranav-Shukla/dp/1787281868/ref=sr_1_1" target="_blank">Amazon UK</a>, <a href="https://www.amazon.com/Learning-Elastic-Stack-Pranav-Shukla/dp/1787281868/ref=tmm_pap_swatch_0" target="_blank">Amazon USA</a>, <a href="https://www.amazon.in/Learning-Elastic-Stack-Pranav-Shukla-ebook/dp/B077T7V7PF/ref=sr_1_1" target="_blank">Amazon India</a> and other portals.
 
-Order your copy now!
+A parting thought -
+
+<blockquote>
+"A writer only begins a book. A reader finishes it.”      ― Samuel Johnson
+</blockquote>

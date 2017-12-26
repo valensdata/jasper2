@@ -77,7 +77,8 @@ module Jekyll
               end
 
               content = post.content
-              url = "#{@site.config['url']}#{post.url}"
+              posturl = "#{post.url}"[1..-1]
+              url = "#{@site.config['production_url']}#{posturl}"
               title = post.data['title']
               
               published_at = backdate ? post.date : DateTime.now
@@ -111,7 +112,7 @@ module Jekyll
               # Render any plugins
               content = (Liquid::Template.parse content).render @site.site_payload
 
-              url = "#{@site.config['url']}#{post.url}"
+              url = "#{@site.config['production_url']}#{post.url}"
               title = post.title
               
               published_at = backdate ? post.date : DateTime.now
@@ -128,10 +129,11 @@ module Jekyll
     def crosspost_payload(crossposted, post, content, title, url, published_at)
       # Update any absolute URLs
       # But don’t clobber protocol-less (i.e. "//") URLs
-      content = content.gsub /href=(["'])\/(?!\/)/, "href=\\1#{@site.config['url']}/"
-      content = content.gsub /src=(["'])\/(?!\/)/, "src=\\1#{@site.config['url']}/"
+      content = content.gsub /href=(["'])\/(?!\/)/, "href=\\1#{@site.config['production_url']}/"
+      content = content.gsub /src=(["'])\/(?!\/)/, "src=\\1#{@site.config['production_url']}/"
       # puts content
-
+      $stdout.write 'Hello, World!'
+      $stdout.write url
       # Save canonical URL
       canonical_url = url
 
@@ -148,10 +150,13 @@ module Jekyll
       else
           canonical_text = "<p><i>This article was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
       end
+
+      $stdout.write canonical_text
+
       content << canonical_text
 
       # Strip domain name from the URL we check against
-      url = url.sub(/^#{@site.config['url']}?/,'')
+      url = url.sub(/^#{@site.config['production_url']}?/,'')
 
       # coerce tage to an array
       tags = post.data['tags']
