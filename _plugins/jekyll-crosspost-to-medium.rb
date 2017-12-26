@@ -132,8 +132,6 @@ module Jekyll
       content = content.gsub /href=(["'])\/(?!\/)/, "href=\\1#{@site.config['production_url']}/"
       content = content.gsub /src=(["'])\/(?!\/)/, "src=\\1#{@site.config['production_url']}/"
       # puts content
-      $stdout.write 'Hello, World!'
-      $stdout.write url
       # Save canonical URL
       canonical_url = url
 
@@ -150,8 +148,6 @@ module Jekyll
       else
           canonical_text = "<p><i>This article was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
       end
-
-      $stdout.write canonical_text
 
       content << canonical_text
 
