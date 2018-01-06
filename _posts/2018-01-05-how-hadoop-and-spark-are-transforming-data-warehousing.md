@@ -97,9 +97,5 @@ Are you looking to modernize your DW/BI infrastructure?
 </p>
 
 
-<em>Originally published at </em>
-
-<a href="http://brevitaz.com/hadoop-spark-data-warehousing-business-intelligence/" data-href="http://brevitaz.com/hadoop-spark-data-warehousing-business-intelligence/" rel="canonical" target="_blank"><em>http://brevitaz.com/hadoop-spark-data-warehousing-business-intelligence/</em></a>
-
-<em> on May 10, 2016.</em>
+<em>Originally published at </em><a href="http://brevitaz.com/hadoop-spark-data-warehousing-business-intelligence/" data-href="http://brevitaz.com/hadoop-spark-data-warehousing-business-intelligence/" rel="canonical" target="_blank"><em>http://brevitaz.com/hadoop-spark-data-warehousing-business-intelligence/</em></a><em> on May 10, 2016.</em>
 
