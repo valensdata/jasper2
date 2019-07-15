@@ -10,7 +10,7 @@ class: post-template
 subclass: 'post tag-elastic-stack'
 logo: assets/images/ghost.png
 author: pranav
-crosspost_to_medium: false
+crosspost_to_medium: true
 ---
 
 <p>Traditional data warehouses cannot handle big data. Hadoop, Spark, Impala, Parquet and SQL on Hadoop will play big role in data warehouse modernization.</p>
