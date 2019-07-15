@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/images/posts/book_cover_image_2.png
 navigation: True
-title: Book Learning Elastic Stack 7 released!
+title: Book Learning Elastic Stack 7.0 released!
 date: 2019-07-15 12:45:10
 tags: [Elastic Stack, Big Data, Elasticsearch, Kibana, Logstash]
 class: post-template

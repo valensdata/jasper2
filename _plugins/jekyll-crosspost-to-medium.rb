@@ -201,6 +201,11 @@ module Jekyll
       # Set the payload
       request.body = JSON.generate(payload)
 
+      puts "path is #{medium_api.path}"
+
+      puts "hello, the request body is as follows"
+      puts "#{request.body}"
+
       # Post it
       response = https.request(request)
 
